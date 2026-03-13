@@ -10,7 +10,6 @@ import {HeroUIProvider} from "@heroui/react";
 import Profile from './component/Profile/Profile';
 import AuthContextProvider from "./component/Context/AuthContext";
 import LandingPage from './component/LandingPage/LandingPage';
-import ProtectedRoute from "./component/ProtectedRoute/protectedRoute";
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query'
 import PostDetails from './component/PostDetails/PostDetails';
 import { ToastContainer } from 'react-toastify';
@@ -19,6 +18,7 @@ import DetectOffline from "./component/DetectOffline/DetectOffline";
 import Settings from './component/Settings/Settings';
 import Notifications from './component/Notifications/Notifications';
 import UserProfile from "./component/UserProfile/UserProfile";
+import ProtectedRoute from './component/ProtectedRoute/ProtectedRoute';
 
 
 
